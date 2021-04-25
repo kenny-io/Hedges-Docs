@@ -32,8 +32,10 @@
             Fingerstache flexitarian street art 8-bit waistcoat. Distillery
             hexagon disrupt edison bulbche.
           </p>
-          <a class="text-green-500 inline-flex items-center"
-            ><nuxt-link :to="`/docs/${doc.slug}`">{{ doc.title }} </nuxt-link>
+          <nuxt-link
+            class="text-green-500 inline-flex items-center"
+            :to="`/docs/${doc.slug}`"
+            >{{ doc.title }}
             <svg
               fill="none"
               stroke="currentColor"
@@ -45,7 +47,7 @@
             >
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </div>
