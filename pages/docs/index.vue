@@ -33,7 +33,7 @@
             hexagon disrupt edison bulbche.
           </p>
           <a class="text-green-500 inline-flex items-center"
-            ><nuxt-link :to="`/${doc.slug}`">{{ doc.title }} </nuxt-link>
+            ><nuxt-link :to="`/docs/${doc.slug}`">{{ doc.title }} </nuxt-link>
             <svg
               fill="none"
               stroke="currentColor"
